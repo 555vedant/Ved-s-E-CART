@@ -1,4 +1,4 @@
-# Project Name
+# E-CART
 
 ## How to Run the Project
 
