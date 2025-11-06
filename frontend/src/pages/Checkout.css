@@ -1,0 +1,73 @@
+.checkout-page {
+  padding: 40px;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #f2f4f7;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+
+.checkout-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+.checkout-form {
+  background: #fff;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  border: 1px solid #f0f0f0;
+}
+
+.checkout-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  background: #fff;
+  color: #333;
+}
+
+.checkout-form input:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.1);
+}
+
+.checkout-form button {
+  width: 100%;
+  margin-top: 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.checkout-form button:hover {
+  background: #218838;
+  transform: translateY(-1px);
+}
+
+.checkout-form button:active {
+  transform: translateY(0);
+}
