@@ -1,6 +1,6 @@
 # Project Name
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Prerequisites
 - Node.js installed on your system
